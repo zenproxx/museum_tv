@@ -1,0 +1,181 @@
+body{
+	background: url('../img/bg.png'), url('../img/bg2.png');
+	background-size: 400px 400px, 200px 200px;
+	background-position: center, right bottom;
+	background-repeat: repeat, no-repeat;
+
+}
+
+.fix-height{
+	min-height: 100vh!important;
+}
+
+.np{padding: 0;}
+
+.same-height{
+	min-height: 33vh!important;
+}
+
+.box-menu{
+	height: 100%;
+	width: 100%;
+	
+}
+
+.dalam{
+	height: 100%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+
+.dalam img{
+	vertical-align: middle;
+}
+
+.red{
+	background: rgba(207, 12, 12, .7);
+}
+
+.blue{
+	background: rgba(12, 201, 207, .7);
+}
+
+.yellow{
+	background: rgba(207, 188, 12, .7);
+}
+
+.green{
+	background: rgba(12, 207, 41, .7);
+}
+.violet{
+	background: rgba(132, 12, 207, .7);
+}
+
+.teal{
+	background: rgba(12, 207, 149, .7);
+}
+.orange{
+	background: rgba(207, 84, 12, .7);
+}
+.bluee{
+	background: rgba(12, 19, 207, .7);
+}
+
+.scan-button{
+	background: #fff; border: none; padding: 10px 50px; border-radius: 40px; display: block; margin:0px auto;
+	border: 5px solid orange;
+	font-family: 'Baloo Bhai', cursive; text-decoration: none; text-transform: uppercase; color: #333;
+}
+
+.box{
+
+	width: 100%;
+	background: rgba(255,255,255,.6);
+	box-shadow: 0px 0px 3px #ddd;
+	border-radius: 10px;
+}
+
+.judul{
+	text-transform: uppercase;
+	font-family: 'roboto';
+	font-size: 20px;
+	color: #555;
+}
+
+.penjudulan{
+	text-transform: uppercase;
+	font-family: 'Baloo Bhai', cursive;
+
+}
+
+.judul h2{
+	font-size: 45px!important;
+}
+
+.judul-acc{
+	padding: 10px 5px; width: 100%;
+	background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-moz-box-shadow: -4px 0 0 0 #333;
+-webkit-box-shadow: -4px 0 0 0 #333;
+box-shadow: -4px 0 0 0 #333;
+
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 9px 15px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.scan-container{
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin: 0px auto;
+}
+
+.modal-active{
+	display:block;
+}
+
+.nomor-item{
+	background: linear-gradient(right, #ffff1c, #00c3ff); height: 50px; width: 50px; border-radius: 5px; display: block; margin:10px auto; padding: 9px 17px;
+	border: 3px solid skyblue; 
+}
+
+.sc-item{
+	background-size: cover;
+}
+
+.gambarlantai{
+	height: 200px; display: block; margin: 0px auto;
+}
+
+.sc-overlay{
+	padding: 90px 10px;
+	background: rgba(255,231,0,.7);
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.gambar-logo{width: 20%!important;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.gambar-logo{width: 20%!important;
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

@@ -1,8 +1,5 @@
 body{
-	background: url('../img/bg.png'), url('../img/bg2.png');
-	background-size: 400px 400px, 200px 200px;
-	background-position: center, right bottom;
-	background-repeat: repeat, no-repeat;
+	background: url('../img/weather.png');
 
 }
 
@@ -34,32 +31,43 @@ body{
 }
 
 .red{
-	background: rgba(207, 12, 12, .7);
+	background: rgba(207, 12, 12, .8);
 }
 
 .blue{
-	background: rgba(12, 201, 207, .7);
+	background: rgba(12, 201, 207, .8);
 }
 
 .yellow{
-	background: rgba(207, 188, 12, .7);
+	background: rgba(207, 188, 12, .8);
 }
 
 .green{
-	background: rgba(12, 207, 41, .7);
+	background: rgba(12, 207, 41, .8);
 }
 .violet{
-	background: rgba(132, 12, 207, .7);
+	background: rgba(132, 12, 207, .8);
 }
 
 .teal{
-	background: rgba(12, 207, 149, .7);
+	background: rgba(12, 207, 149, .8);
 }
 .orange{
-	background: rgba(207, 84, 12, .7);
+	background: rgba(207, 84, 12, .8);
 }
 .bluee{
-	background: rgba(12, 19, 207, .7);
+	background: rgba(12, 19, 207, .8);
+}
+
+.gradient1{
+	background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.img-center{
+	display: block; margin:20px auto;
 }
 
 .scan-button{

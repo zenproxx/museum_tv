@@ -134,9 +134,9 @@ const kunjungan = {
       isi :'Banyak sekolah mulai dari tingkat SD-SLTA, Mahasiswa Perguruan Tinggi Negeri/Swasta, Instansi Pemerintahan, Tokoh-tokoh penting dan juga masyarakat umum  sudah mengunjungi museum yang menyimpan benda koleksi dan literatur sejarah ini. Jika dihitung jumlahnya sudah mencapai puluhan ribu pengunjung sejak diresmikan.',
       judul : 'Kunjungan Masyarakat ke Museum Daerah Deli Serdang',
       gambar : [
-        {link:'img/kunjungan/1.jpg', deskripsi : 'Kunjungan Yayasan Swadaya Dian Khatulistiwa, Pontianak, Kalimantan Barat ke Museum Daerah Deli Serdang. Jum’at, 13 Sept 2019'},
-        {link:'img/kunjungan/2.jpg', deskripsi : 'Kunjungan Team Jelajah Nusantara ke Museum Daerah Deli Serdang'},
-        {link:'img/kunjungan/3.jpg', deskripsi : 'Kunjungan Adik-adik SMA di Museum Daerah Deli Serdang'},
+        {link:'img/kunjungan/1.jpg', small:'img/kunjungan/small/1.jpg', deskripsi : 'Kunjungan Yayasan Swadaya Dian Khatulistiwa, Pontianak, Kalimantan Barat ke Museum Daerah Deli Serdang. Jum’at, 13 Sept 2019'},
+        {link:'img/kunjungan/2.jpg', small:'img/kunjungan/small/2.jpg', deskripsi : 'Kunjungan Team Jelajah Nusantara ke Museum Daerah Deli Serdang'},
+        {link:'img/kunjungan/3.jpg', small:'img/kunjungan/small/3.jpg', deskripsi : 'Kunjungan Adik-adik SMA di Museum Daerah Deli Serdang'},
       ]
 
     }
@@ -159,8 +159,8 @@ const kegiatan = {
 
       judul : 'Kegiatan',
       gambar : [
-        {link:'img/kegiatan/1.jpg', deskripsi : 'Kunjungan Pemkab Kepahyang, Bengkulu dalam rangka Study Tiru ke Museum Daerah Deli Serdang. Selasa, 17 Des 2019'},
-        {link:'img/kegiatan/2.jpg', deskripsi : 'Kasi Museum Daerah Deli Serdang menerima Kunjungan Sekolah Ar-Rahman Fullday School Medan di Museum Daerah Del Serdang. Selasa, 17 Des 2019'},
+        {link:'img/kegiatan/1.jpg', small :'img/kegiatan/small/1.jpg', deskripsi : 'Kunjungan Pemkab Kepahyang, Bengkulu dalam rangka Study Tiru ke Museum Daerah Deli Serdang. Selasa, 17 Des 2019'},
+        {link:'img/kegiatan/2.jpg', small : 'img/kegiatan/small/2.jpg', deskripsi : 'Kasi Museum Daerah Deli Serdang menerima Kunjungan Sekolah Ar-Rahman Fullday School Medan di Museum Daerah Del Serdang. Selasa, 17 Des 2019'},
       ]
 
     }
@@ -282,6 +282,7 @@ const app = new Vue({
   },
 
   mounted() {
+
   }
 })
 

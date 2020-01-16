@@ -7,10 +7,9 @@
         <title>Museum Deli Serdang</title>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jquery.lighter.css">
         <link rel="stylesheet" href="css/main.museum.css">
-        <link rel="stylesheet" href="plugin/fontawesome/css/all.min.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="plugin/fontawesome/css/all.min.css"> 
     </head>
     <body>
 
@@ -22,96 +21,108 @@
 
         <script type="text/x-template" id="logomuseum">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
+
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr> 
-
-                            <img :src="gambar" alt="" style="width: 30%; margin: 20px auto; display: block;">                         
-
+                        <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="orange py-5 ">
                             <div class="row">
-                                <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2">
-                                    <div class="alert alert-primary">
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/logo-min.png" class="img-center" width="50px" height="60px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2 my-3">
+                                    <div class="alert alert-warning">
                                         <ul v-for="item in point">
                                             <li>{{item.deskripsi}}</li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </script>
 
         <script type="text/x-template" id="visimisi">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
 
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>                          
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12 mt-2">
+                            <div class="blue py-5 ">
+                                <div class="row" style="padding: 0;">
+                                    <div class="col-xl-12 col-md-4">
+                                        <img src="img/logo-min.png" class="img-center" width="50px" height="60px" alt="">
+                                    </div>
 
-                            <div class="row">
-                                <div class="col">
-                                    <img :src="gambar" class="img-fluid img-thumbnail" style="display: block; margin: 10px auto;" alt="">
+                                    <div class="col-xl-12 col-md-8">
+                                        <h3 class="text-center text-white">{{judul}}</h3>  
+                                    </div>
                                 </div>
                             </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
                         </div>
 
+                        <div class="col-xl-12 col-md-12 mt-3">
+                            <img :src="gambar" class="img-fluid img-thumbnail" style="display: block; margin: 10px auto;" alt="">
+                        </div>
                     </div>
+                    
+
+
+                
                 </div>
             </div>
         </script>
 
         <script type="text/x-template" id="gambarmuseum">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
-                    <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>                          
-
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="red py-5 ">
                             <div class="row">
-                                <div class="col-xl-4 col-md-4" v-for="item in gambar">
-                                    <img :src="item.link" class="img-fluid img-thumbnail rounded" alt="">
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
                                 </div>
                             </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
                         </div>
+                    </div>
 
+                    <div class="col-xl-12 col-md-12 mt-4">
+                        <div class="row">
+                            <div class="col-xl-2 col-md-2 py-2" v-for="img in gambar">
+                            <a :href="img.link" data-lighter>
+                                <img :src="img.link" height="150px" width="150px" />
+                                <p style="font-size:12px; color: #333;">{{img.deskripsi}}</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,38 +131,35 @@
 
         <script type="text/x-template" id="strukturorganisasi">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
+
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>
-
+                        <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="green py-5 ">
                             <div class="row">
-                                <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2">
-                                    <div class="alert alert-primary">
-                                        <img :src="gambar" class="img-fluid" style="width: 100%;" alt="">
-                                    </div>
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/organization.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
                                 </div>
                             </div>
-                            
-                            
-
-                            <div class="row">
-                                <div class="col-xl-4 col-md-4" v-for="item in gambar">
-                                    
-                                </div>
-                            </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
                         </div>
+                    </div>
+
+                    <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2 py-3">
+                        <img :src="gambar" class="img-fluid" style="width: 100%;" alt="">
+                                    
+                            </div>
+                        </div>
+                    </div>
 
                     </div>
                 </div>
@@ -161,79 +169,88 @@
 
         <script type="text/x-template" id="peresmian">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>
-
-                            <div class="row">
-                                <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2">
-                                    <div class="alert alert-primary">
-                                        <p><i class="fas fa-info-circle"></i> <i>Info</i></p>
-                                        <p class="text-justify">{{isi}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-
-                            <div class="row">
-                                <div class="col-xl-4 col-md-4" v-for="item in gambar">
-                                    <img :src="item.link" class="img-fluid img-thumbnail rounded" alt="">
-                                </div>
-                            </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
-                        </div>
-
+                        <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
                     </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="violet py-5 ">
+                            <div class="row">
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/inauguration.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2 mt-3">
+                        <div class="alert alert-warning">
+                            <p><i class="fas fa-info-circle"></i> <i>Info</i></p>
+                            <p class="text-justify">{{isi}}</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-md-12 mt-4">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-3 py-2" v-for="img in gambar">
+                            <a :href="img.link" data-lighter>
+                                <img :src="img.link" class="img-fluid img-thumbnail" />
+                                <p style="font-size:12px; color: #333;">{{img.deskripsi}}</p>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </script>
 
         <script type="text/x-template" id="kunjungan">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>
-
+                        <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="yellow py-5 ">
                             <div class="row">
-                                <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2">
-                                    <div class="alert alert-primary">
-                                        <p><i class="fas fa-info-circle"></i> <i>Info</i></p>
-                                        <p class="text-justify">{{isi}}</p>
-                                    </div>
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/parrent.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
                                 </div>
                             </div>
-
-                            <div class="row">
-                                <div class="col-xl-4 col-md-4" v-for="item in gambar">
-                                    <img :src="item.link" class="img-fluid img-thumbnail rounded" alt="">
-                                    <p class="text-center">{{item.deskripsi}}</p>
-                                </div>
-                            </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
                         </div>
+                    </div>
+
+                    <div class="col-xl-8 col-md-8 offset-md-2 offset-xl-2 mt-3">
+                        <div class="alert alert-warning">
+                            <p><i class="fas fa-info-circle"></i> <i>Info</i></p>
+                            <p class="text-justify">{{isi}}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12 col-md-12 mt-4">
+                        <div class="row">
+                            <div class="col-xl-2 col-md-2 py-2" v-for="img in gambar">
+                            <a :href="img.link" data-lighter>
+                                <img :src="img.small" class="img-fluid" />
+                                <p style="font-size:12px; color: #333;">{{img.deskripsi}}</p>
+                            </a>
+                        </div>
+                    </div>
 
                     </div>
                 </div>
@@ -242,53 +259,80 @@
 
         <script type="text/x-template" id="kegiatan">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
                 <div class="row">
-                    <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
-                          <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>
-
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="bluee py-5 ">
                             <div class="row">
-                                <div class="col-xl-4 col-md-4" v-for="item in gambar">
-                                    <img :src="item.link" class="img-fluid img-thumbnail rounded" alt="">
-                                    <p class="text-center">{{item.deskripsi}}</p>
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/kegiatan.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
                                 </div>
                             </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
-                          </div>
                         </div>
+                    </div>
+
+                    <div class="col-xl-12 col-md-12 mt-4">
+                        <div class="row">
+                            <div class="col-xl-2 col-md-2 py-2" v-for="img in gambar">
+                            <a :href="img.link" data-lighter>
+                                <img :src="img.small" class="img-fluid" />
+                                <p style="font-size:12px; color: #333;">{{img.deskripsi}}</p>
+                            </a>
+                        </div>
+                    </div>
 
                     </div>
+
                 </div>
             </div>
         </script>
 
         <script type="text/x-template" id="program">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
+
+
                 <div class="row">
+
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="red py-5 ">
+                            <div class="row">
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/program.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
+                        <div class="card mb-5" style="border-radius: 0;">
                           <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
-                            
-                            <h3 class="card-title text-center">{{judul}}</h3><br>
-                            <hr>
 
                             <div class="row">
+                                                                
                                 <div class="col-xl-8 col-md-8 offset-xl-2 offset-md-2">
                                     <div class="card">
-                                        <img class="card-img-top" src="img/program/kenanglemu.jpg" alt="Card image cap">
+                                        <img class="card-img-top" height="500px" src="img/program/kenanglemu.jpg" alt="Card image cap">
                                         <div class="card-body">
                                             <hr>
                                             <h5 class="card-title">{{subjudul}}</h5>
@@ -297,9 +341,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
 
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
                           </div>
                         </div>
 
@@ -310,33 +352,53 @@
 
         <script type="text/x-template" id="peraturan">
 
-            <div class="container-fluid fix-height">
+            <div class="container fix-height">
+
+
                 <div class="row">
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
+                    </div>
+                    
+                    <div class="col-xl-12 col-md-12 mt-2">
+                        <div class="green py-5 ">
+                            <div class="row">
+                                <div class="col-xl-12 col-md-4">
+                                    <img src="img/icon/rules.png" class="img-center" width="50px" height="50px" alt="">
+                                </div>
+
+                                <div class="col-xl-12 col-md-8">
+                                    <h3 class="text-center text-white">{{judul}}</h3>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col">
 
-                        <div class="card my-5" style="border-radius: 0;">
+                        <div class="card mb-5" style="border-radius: 0;">
                           <div class="card-body">
-                            <a @click="goBack" class="btn btn-warning"><i class="fas fa-angle-left"></i></a>
-
                             
-                            <h5 class="card-title text-center">{{judul}}</h5><br>
-                            <hr>
+
+                            <div class="container">
 
                             <div class="row">
                                 <div class="col">
-                                    <ul class="list-group" v-for="item in point">
-                                        <li class="list-group-item">{{item.no}}. {{item.deskripsi}}</li>
-                                    </ul>
+                                    <div class="alert alert-primary">
+                                        <ul v-for="item in point">
+                                            <li>{{item.deskripsi}}</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                                 <div class="col">
-                                    <h5>Perhatian</h5>
-                                    <p class="text-justify">{{perhatian}}</p>
+                                    <div class="alert alert-primary">
+                                        <h5><i class="fas fa-info-circle"></i> Perhatian</h5>
+                                        <p class="text-justify">{{perhatian}}</p>
+                                    </div>
                                 </div>
                             </div>
-                            <hr>
-
-                            <a @click="goBack" class="btn btn-warning btn-block"><i class="fas fa-angle-left"></i> Kembali</a>
+                            </container>
                           </div>
                         </div>
 
@@ -414,6 +476,11 @@
         <script src="js/bootstrap-vue.js"></script>
         <!-- script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script -->
         <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/jquery.lighter.js"></script>
+
+        <script>
+            
+        </script>
 
     </body>
 </html>

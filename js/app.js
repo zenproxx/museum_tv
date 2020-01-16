@@ -132,11 +132,23 @@ const kunjungan = {
     return{
 
       isi :'Banyak sekolah mulai dari tingkat SD-SLTA, Mahasiswa Perguruan Tinggi Negeri/Swasta, Instansi Pemerintahan, Tokoh-tokoh penting dan juga masyarakat umum  sudah mengunjungi museum yang menyimpan benda koleksi dan literatur sejarah ini. Jika dihitung jumlahnya sudah mencapai puluhan ribu pengunjung sejak diresmikan.',
-      judul : 'Kunjungan Masyarakat ke Museum Daerah Deli Serdang',
+      judul : 'Kunjungan Instansi & Masyarakat ke Museum Daerah Deli Serdang',
       gambar : [
         {link:'img/kunjungan/1.jpg', small:'img/kunjungan/small/1.jpg', deskripsi : 'Kunjungan Yayasan Swadaya Dian Khatulistiwa, Pontianak, Kalimantan Barat ke Museum Daerah Deli Serdang. Jum’at, 13 Sept 2019'},
         {link:'img/kunjungan/2.jpg', small:'img/kunjungan/small/2.jpg', deskripsi : 'Kunjungan Team Jelajah Nusantara ke Museum Daerah Deli Serdang'},
         {link:'img/kunjungan/3.jpg', small:'img/kunjungan/small/3.jpg', deskripsi : 'Kunjungan Adik-adik SMA di Museum Daerah Deli Serdang'},
+        {link:'img/kunjungan/bek1.jpeg', small:'img/kunjungan/small/bek1.jpeg', deskripsi : 'Kunjungan Badan Ekonomi Kreatif Republik Indonesia'},
+        {link:'img/kunjungan/bij.jpeg', small:'img/kunjungan/small/bij.jpeg', deskripsi : 'Kunjungan Bank Indonesia Jakarta'},
+        {link:'img/kunjungan/dl1.jpg', small:'img/kunjungan/small/dl1.jpg', deskripsi : 'Kunjungan Dinas Pariwisata dan Budaya Kab. Langkat'},
+        {link:'img/kunjungan/dpps.jpeg', small:'img/kunjungan/small/dpps.jpeg', deskripsi : 'Kunjungan Dinas Pariwisata Padang Sidempuan'},
+        {link:'img/kunjungan/dprdl.jpeg', small:'img/kunjungan/small/dprdl.jpeg', deskripsi : 'Kunjungan DPRD Kab. Langkat dan Dinas Parbud Kab. Langkat'},
+        {link:'img/kunjungan/kij.jpeg', small:'img/kunjungan/small/kij.jpeg', deskripsi : 'kunjungan Inspektorat Jendral KemdikbudDisdik Prov. SUMUT'},
+        {link:'img/kunjungan/kms.jpg', small:'img/kunjungan/small/kms.jpg', deskripsi : 'Kunjungan Kepala Museum Negeri Sumut'},
+        {link:'img/kunjungan/kcr.jpg', small:'img/kunjungan/small/kcr.jpg', deskripsi : 'kunjungan KESULTANAN KESEPUHAN CIREBON, SULTAN SEPUH XIV PRA Arief Natadiningrat'},
+        {link:'img/kunjungan/mtb.jpeg', small:'img/kunjungan/small/mtb.jpeg', deskripsi : 'Kunjungan Museum Tebing Tinggi'},
+        {link:'img/kunjungan/pasis.jpeg', small:'img/kunjungan/small/pasis.jpeg', deskripsi : 'kunjungan Pasis Dikreg LVII Seskoad'},
+        {link:'img/kunjungan/paskibra.jpeg', small:'img/kunjungan/small/paskibra.jpeg', deskripsi : 'Kunjungan Adik-adik Paskibra Deli Serdang'},
+        {link:'img/kunjungan/u1.jpg', small:'img/kunjungan/small/u1.jpg', deskripsi : 'Kunjungan Masyarakat Umum di Museum Daerah Deli Serdang'},
       ]
 
     }
@@ -161,6 +173,21 @@ const kegiatan = {
       gambar : [
         {link:'img/kegiatan/1.jpg', small :'img/kegiatan/small/1.jpg', deskripsi : 'Kunjungan Pemkab Kepahyang, Bengkulu dalam rangka Study Tiru ke Museum Daerah Deli Serdang. Selasa, 17 Des 2019'},
         {link:'img/kegiatan/2.jpg', small : 'img/kegiatan/small/2.jpg', deskripsi : 'Kasi Museum Daerah Deli Serdang menerima Kunjungan Sekolah Ar-Rahman Fullday School Medan di Museum Daerah Del Serdang. Selasa, 17 Des 2019'},
+        {link:'img/kegiatan/l1.jpg', small : 'img/kegiatan/small/l1.jpg', deskripsi : 'Peserta Lomba Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/l2.jpg', small : 'img/kegiatan/small/l2.jpg', deskripsi : 'Peserta Lomba Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/l3.jpg', small : 'img/kegiatan/small/l3.jpg', deskripsi : 'Peserta Lomba Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/m1.jpg', small : 'img/kegiatan/small/m1.jpg', deskripsi : 'Peserta Lomba Melukis se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/m2.jpg', small : 'img/kegiatan/small/m2.jpg', deskripsi : 'Peserta Lomba Mewarnai se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/m3.jpg', small : 'img/kegiatan/small/m3.jpg', deskripsi : 'Peserta Lomba Melukis se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/w1.jpg', small : 'img/kegiatan/small/w1.jpg', deskripsi : 'Peserta Lomba Mewarnai se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/w2.jpg', small : 'img/kegiatan/small/w2.jpg', deskripsi : 'Peserta Lomba Mewarnai se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p1.jpg', small : 'img/kegiatan/small/p1.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p2.jpg', small : 'img/kegiatan/small/p2.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p3.jpg', small : 'img/kegiatan/small/p3.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p4.jpg', small : 'img/kegiatan/small/p4.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p5.jpg', small : 'img/kegiatan/small/p5.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/p6.jpg', small : 'img/kegiatan/small/p6.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        
       ]
 
     }

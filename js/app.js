@@ -149,7 +149,33 @@ const kunjungan = {
         {link:'img/kunjungan/pasis.jpeg', small:'img/kunjungan/small/pasis.jpeg', deskripsi : 'kunjungan Pasis Dikreg LVII Seskoad'},
         {link:'img/kunjungan/paskibra.jpeg', small:'img/kunjungan/small/paskibra.jpeg', deskripsi : 'Kunjungan Adik-adik Paskibra Deli Serdang'},
         {link:'img/kunjungan/u1.jpg', small:'img/kunjungan/small/u1.jpg', deskripsi : 'Kunjungan Masyarakat Umum di Museum Daerah Deli Serdang'},
-      ]
+
+        //SD
+        {link:'img/kunjungan/sd/1.jpg', small : 'img/kunjungan/small/sd/1.jpg', deskripsi : 'Kunjungan SDN 101807 Sibiru-Biru'},
+        {link:'img/kunjungan/sd/2.jpg', small : 'img/kunjungan/small/sd/2.jpg', deskripsi : 'Kunjungan SD IT DOD Medan'},
+        {link:'img/kunjungan/sd/3.jpg', small : 'img/kunjungan/small/sd/3.jpg', deskripsi : 'Kunjungan SD AL-ITTIHADIYAH LAUT DENDANG'},
+        {link:'img/kunjungan/sd/4.jpg', small : 'img/kunjungan/small/sd/4.jpg', deskripsi : 'Kunjungan SDN 101779 PERCUT SEI TUAN'},
+        {link:'img/kunjungan/sd/5.jpg', small : 'img/kunjungan/small/sd/5.jpg', deskripsi : 'Kunjungan SDN 105295 PERCUT SEI TUAN'},
+        {link:'img/kunjungan/sd/6.jpg', small : 'img/kunjungan/small/sd/6.jpg', deskripsi : 'Kunjungan SDN 060814 MEDAN'},
+        {link:'img/kunjungan/sd/7.jpg', small : 'img/kunjungan/small/sd/7.jpg', deskripsi : 'Kunjungan SDN 064021 MEDAN HELVETIA'},
+        {link:'img/kunjungan/sd/8.jpg', small : 'img/kunjungan/small/sd/8.jpg', deskripsi : 'Kunjungan SD N 104277 TANAH MERAH, GALANG'},
+        {link:'img/kunjungan/sd/9.jpg', small : 'img/kunjungan/small/sd/9.jpg', deskripsi : 'Kunjungan SDN 101966 PETANGGUHAN, GALANG'},
+        {link:'img/kunjungan/sd/10.jpg', small : 'img/kunjungan/small/sd/10.jpg', deskripsi : 'Kunjungan SDN 101900 l.pakam'},
+        {link:'img/kunjungan/sd/11.jpg', small : 'img/kunjungan/small/sd/11.jpg', deskripsi : 'Kunjungan SDN 060821 MEDAN AREA'},
+        {link:'img/kunjungan/sd/12.jpg', small : 'img/kunjungan/small/sd/12.jpg', deskripsi : 'Kunjungan SDN 106820 PANCUR BATU'},
+        {link:'img/kunjungan/sd/13.jpg', small : 'img/kunjungan/small/sd/13.jpg', deskripsi : 'Kunjungan SDN 106443 HAMPARAN PERAK'},
+        {link:'img/kunjungan/sd/14.jpg', small : 'img/kunjungan/small/sd/14.jpg', deskripsi : 'Kunjungan SD RK NAMO PULI, STM HILIR'},
+        {link:'img/kunjungan/sd/15.jpeg', small : 'img/kunjungan/small/sd/15.jpeg', deskripsi : 'Kunjungan SD RK SERDANG MURNI LUBUK PAKAM'},
+        {link:'img/kunjungan/sd/16.jpg', small : 'img/kunjungan/small/sd/16.jpg', deskripsi : 'Kunjungan SDN 106804 PERCUT SEI TUAN'},
+        
+        //SMP
+        {link:'img/kunjungan/smp/1.jpg', small : 'img/kunjungan/small/smp/1.jpg', deskripsi : 'Kunjungan SMPN 1 BIRU BIRU'},
+        {link:'img/kunjungan/smp/2.jpg', small : 'img/kunjungan/small/smp/2.jpg', deskripsi : 'Kunjungan SMPN 3 LUBUK PAKAM'},
+        {link:'img/kunjungan/smp/3.jpg', small : 'img/kunjungan/small/smp/3.jpg', deskripsi : 'Kunjungan SMPN 4 PERCUT SEI TUAN'},
+        
+        //SMA
+        {link:'img/kunjungan/sma/1.jpg', small : 'img/kunjungan/small/sma/1.jpg', deskripsi : 'Kunjungan SMAN 1 Lubuk Pakam'},
+      ],
 
     }
   },
@@ -187,6 +213,22 @@ const kegiatan = {
         {link:'img/kegiatan/p4.jpg', small : 'img/kegiatan/small/p4.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
         {link:'img/kegiatan/p5.jpg', small : 'img/kegiatan/small/p5.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
         {link:'img/kegiatan/p6.jpg', small : 'img/kegiatan/small/p6.jpg', deskripsi : 'Penyerahan Hadiah Lomba Mewarnai, Melukis, dan Literasi se Kabupaten Deli Serdang Tingkat PAUD/TK - SD Sederajat'},
+        {link:'img/kegiatan/f1.jpg', small : 'img/kegiatan/small/f1.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f2.jpg', small : 'img/kegiatan/small/f2.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f3.jpg', small : 'img/kegiatan/small/f3.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f4.jpg', small : 'img/kegiatan/small/f4.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f5.jpg', small : 'img/kegiatan/small/f5.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f6.jpg', small : 'img/kegiatan/small/f6.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f7.jpg', small : 'img/kegiatan/small/f7.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f8.jpg', small : 'img/kegiatan/small/f8.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f9.jpg', small : 'img/kegiatan/small/f9.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f10.jpg', small : 'img/kegiatan/small/f10.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f11.jpg', small : 'img/kegiatan/small/f11.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f12.jpg', small : 'img/kegiatan/small/f12.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        {link:'img/kegiatan/f13.jpg', small : 'img/kegiatan/small/f13.jpg', deskripsi : 'Kegiatan Lomba Potography'},
+        
+        
+        
         
       ]
 
@@ -208,11 +250,18 @@ const program = {
   data: function(){
     return{
 
-      gambar : '',
       judul : 'Program Museum Daerah Deli Serdang',
       subjudul : 'Kenang Lemu',
       isi : 'Kenang Lemu (Kenali Deli Serdang Lewat Museum) adalah program kerja untuk mengenali Kabupaten Deli Serdang melalui museum. Pada Museum Daerah Deli Serdang yang telah diresmikan pada tanggal 8 September 2018 oleh Menteri Pendidikan dan Kebudayaan, pengunjung bisa mendapatkan informasi seputar sejarah Kabupaten Deli Serdang termasuk budayanya. Sejarah Kabupaten Deli Serdang yang ditampilkan mulai dari zaman prasejarah sampai zaman setelah kemerdekaan Indonesia. Tak hanya itu, pada Museum Daerah Deli Serdang, pengunjung antara lain bisa belajar tarian daerah yakni Simalungun, Melayu, dan Karo, belajar bahasa asing, musik melayu, belajar sejarah, serta mengikuti kegiatan lainnya.',
-
+      gambar : [
+        {link:'img/program/k1.jpg', small:'img/program/small/k1.jpg', deskripsi : 'Perpisahan Kenang Lemu'},
+        {link:'img/program/k2.jpg', small:'img/program/small/k2.jpg', deskripsi : 'Perpisahan Kenang Lemu'},
+        {link:'img/program/k3.jpg', small:'img/program/small/k3.jpg', deskripsi : 'Adik-adik yang sedang belajar di program Kenang Lemu'},
+        {link:'img/program/k4.jpg', small:'img/program/small/k4.jpg', deskripsi : 'Pengenalan koleksi yang ada di Museum'},
+        {link:'img/program/k5.jpg', small:'img/program/small/k5.jpg', deskripsi : 'Adik-adik yang sedang belajar di program Kenang Lemu'},
+        {link:'img/program/k6.jpg', small:'img/program/small/k6.jpg', deskripsi : 'Adik-adik yang sedang belajar di program Kenang Lemu'},
+       
+      ],
     }
   },
 
